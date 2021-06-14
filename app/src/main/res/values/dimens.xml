@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textView2_layout_height">85dp</dimen>
+    <dimen name="TextSize_PersonName">24sp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="textSize_8sp">8sp</dimen>
+    <dimen name="height67dp">67dp</dimen>
+    <dimen name="ems10">10</dimen>
+</resources>

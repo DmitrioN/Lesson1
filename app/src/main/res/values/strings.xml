@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="name_checkBox">Нажми сюда</string>
+    <string name="name_switch1">Переключатель</string>
+    <string name="name_button">Кнопка</string>
+    <string name="name_editTextTextPersonName2">Ввод</string>
+    <string name="name_textView">TextView</string>
 </resources>

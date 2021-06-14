@@ -14,19 +14,19 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="85dp"
-            android:text="TextView" />
+            android:layout_height="@dimen/textView2_layout_height"
+            android:text="@string/name_textView" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="@dimen/ems10"
             android:inputType="textPersonName"
-            android:text="Ввод"
+            android:text="@string/name_editTextTextPersonName2"
             android:textAlignment="center"
             android:textColor="@color/purple_700"
-            android:textSize="24sp"
+            android:textSize="@dimen/TextSize_PersonName"
             android:textStyle="bold|italic"
             android:typeface="normal" />
 
@@ -35,24 +35,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/teal_700"
-            android:text="Кнопка"
+            android:text="@string/name_button"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/white"
-            android:textSize="30sp" />
+            android:textSize="@dimen/textSize" />
 
         <Switch
             android:id="@+id/switch1"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
-            android:text="Переключатель" />
+            android:layout_height="@dimen/height67dp"
+            android:text="@string/name_switch1" />
 
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Нажми сюда"
-            android:textSize="8sp"
+            android:text="@string/name_checkBox"
+            android:textSize="@dimen/textSize_8sp"
             android:typeface="monospace" />
 
         <ToggleButton
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?android:attr/colorMultiSelectHighlight"
-            android:text="ToggleButton" />
+            android:text="@string/togglebutton" />
 
         <CalendarView
             android:id="@+id/calendarView"

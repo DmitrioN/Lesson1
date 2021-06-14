@@ -15,41 +15,41 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/name_textView" />
 
         <EditText
             android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="@dimen/ems10"
             android:inputType="phone" />
 
         <EditText
             android:id="@+id/editTextNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="@dimen/ems10"
             android:inputType="number" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="@dimen/ems10"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/editTextTextPostalAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="@dimen/ems10"
             android:inputType="textPostalAddress" />
 
         <EditText
             android:id="@+id/editTextDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="@dimen/ems10"
             android:inputType="date" />
 
     </LinearLayout>
